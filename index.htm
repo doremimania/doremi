@@ -1,16 +1,85 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-	<title>Download Page</title>
-</head>
-<body>
-	<h1>Download Doremimania and PMS convertor</h1>
-	<p>Click on the links below to download the files and zip archives: (all files is non commerical and research purposes)</p>
-	<ul>
+  <head>
+    <!-- Page setup -->
+    <meta charset="utf-8">
+    <title>Doremimania</title>
+    <meta name="description" content="A brief description of your site for search engines">
+    <meta name="author" content="Information about the author here">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <link rel="icon" type="image/png" href="favicon.png">
+  
+    <!-- Stylesheets -->
+    <!-- Reset default styles and add support for google fonts -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
+   
+    <!-- Custom styles -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
+
+    <!-- Want to add Bootstrap? -->
+    <!-- Visit: https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+    
+  </head>
+  
+  <body>
+
+    <header id="header">
+      <img src="logo.jpg">
+      <h1>Doremimania</h1>
+      
+      <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
+      <ul class="main-menu">
+        <li><a href="#home">home</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>                 
+    </header>
+   
+    <div id="container">
+      <div class="inner">
+        <div id="content"> 
+          
+          <div id="home" class="content-region hide">
+            <h2>Home</h2>
+            <p>
+              Welcome to Doremimania with Pms convertor page. Click on the links below to download the files and zip archives: (all files is non commerical and research purposes)
+            </p>
+		  	<ul>
 		<li><a href="https://github.com/doremimania/doremi/archive/main.zip">Doremimania main file</a></li>
 		<li><a href="https://github.com/doremimania/doremi/releases/download/v1.0/file1.zip">PMS convertor zip</a></li>
 		<li><a href="https://github.com/doremimania/doremi/releases/download/v1.0/file2.zip">March 2023 backup pms</a></li>
 	
 	</ul>
-</body>
+          </div>
+          
+          <div id="about" class="content-region hide">
+            <h2>About</h2>
+            <p>
+              It was a 20 yrs old program simulate with Keyboardmania. pms convertor is seem ONLY work normally in Japanese Windows 98, so if you want to convertor your own doremi you need VM and go for JAP win 98
+            </p>
+          </div>
+          
+          <div id="license issues" class="content-region hide">
+            <h2>Contact</h2>
+            <p>
+               only for research and non commerical purposes. 
+            </p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <footer>  
+      To be continue......
+    </footer>
+    
+    <!-- Load additional JS scripts here -->
+    <script type="text/javascript" src="script.js"></script>
+    
+  </body>
 </html>
